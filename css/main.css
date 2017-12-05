@@ -1,0 +1,128 @@
+@font-face {
+    font-family: wisdomscript;
+    src: url("css/wisdomscript.otf") format("opentype");
+}
+
+
+/**** BASE STYLES ****/
+body  {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.full-width {
+    width: auto;
+    padding-left: 30px;
+}
+
+.third-width  {
+    width: 400px;
+    height: 175px;
+    float: left;
+    border: .5px dotted black;
+    margin-bottom: 20px;
+}
+
+/**** HEADER ****/
+h1  {
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+span {
+    color: #77a466;
+}
+
+nav {
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    color: #77a466;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px;
+}
+
+img {
+    border-top: 3px #77a466 solid;
+    border-bottom: 3px #77a466 solid;
+}
+
+/**** ABOUT ***/
+h2  {
+  color: #77a466;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+/*** INFO ***/
+#info  {
+    float: left;
+}
+
+#info h3  {
+    text-transform: uppercase;
+}
+
+.third-width  {
+    display: inline-block;
+    border-left: 0px;
+}
+
+h3  {
+    font-size: 12px;
+    padding: 0 20px;
+}
+
+.menu {
+    padding: 0 20px;
+}
+
+.menu li {
+    color: #77a466;
+    list-style: none;
+    padding: 10px 0;
+}
+
+.reviews  {
+    padding: 0 20px;
+}
+
+.reviews p  {
+    padding: 0 20px;
+}
+
+.address  {
+    padding: 0 20px;
+}
+
+.address p {
+    padding: 0 20px;
+    line-height: 5px;
+    font-size: 16px;
+}
+/**** FOOTER ****/
+footer  {
+    padding: 30px;
+}
+
+#footer {
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+}
+
+#fresh {
+    font-family: 'wisdomscript', serif;
+    color: #77a466;
+    text-transform: lowercase;
+    font-style: italic;
+    font-size: 18px;
+}

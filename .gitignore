@@ -1,0 +1,12 @@
+#Ignore the Following:
+
+RWD-challenge-code-rogue-pickings-starter-module/
+
+# All .DS_Store files (they are annoying)
+.DS_Store
+
+# All zip files
+*.zip
+
+# All psd files
+*.psd
